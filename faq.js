@@ -15,32 +15,15 @@ $(document).ready(function() {
     $(".products").css({
       'display': 'block'
     });
-    $(".services").css({
-      'display': 'none'
-    });
-    $(".payment").css({
+    $(".about").css({
       'display': 'none'
     });
   });
 
-  $(".services-btn").click(function() {
-    $(".services").css({
-      'display': 'block'
-    });
-    $(".products").css({
-      'display': 'none'
-    });
-    $(".payment").css({
-      'display': 'none'
-    });
-  });
 
-  $(".payment-btn").click(function() {
-    $(".payment").css({
+  $(".about-btn").click(function() {
+    $(".about").css({
       'display': 'block'
-    });
-    $(".services").css({
-      'display': 'none'
     });
     $(".products").css({
       'display': 'none'
